@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Montserrat&display=swap');
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+body {
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+
+div {
+
+  text-align: center;
+
+}
+
+
+/* Enlaces */
+
+a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+
+/* NavBar */
+
+/*
+nav {
+  background-color: #038C7F;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  height: 65px;
+}
+
+*/
+
+/*Efecto parallax.*/
+
+header {
+  background: url('casaSegura3.png') center no-repeat fixed;
+  background-size: 50%;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+
+  padding-top: 80px;
+  font-size: 1.8rem;
+  text-align: center;
+
+}
+
+/* Precio */
+
+.precio {
+
+  text-align: center;
+
+}
+
+/* Titulares */
+h1 {
+
+  text-align: center;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 1.8rem;
+
+
+}
+
+h2 {
+
+  text-align: center;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 1.6rem;
+
+
+}
+
+.titular {
+
+  padding-top: 50px;
+
+}
+
+
+article {
+
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+
+/* Tipografía */
+
+p {
+
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+
+}
+
+/* Tabla */
+
+table {
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.producto {
+
+  width: 600px;
+  padding: 12px;
+
+}
+
+
+
+/* Footer */
+
+footer {
+
+  padding: 10px 0;
+  text-align: center;
+  background-color: #0D6EFD;
+
+}
+
+.textoFooter {
+
+  text-align: right;
+  color: white;
+  font-size: 0.8rem;
+  
+}
+
+/* RESPONSIVE */
+
+/* PANTALLA GRANDE */ 
+
+@media screen and (min-width:1200px) {
+
+/* Enlaces */
+
+a {
+
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+/*Efecto parallax.*/
+
+header {
+  background: url('casaSegura3.png') center no-repeat fixed;
+  background-size: 25%;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Header */
+
+.header {
+
+  padding-top: 80px;
+  font-size: 2.8rem;
+
+}
+
+/* Precio */
+
+.precio {
+
+  text-align: center;
+
+}
+
+
+/* Titulares */
+h1 {
+
+  text-align: center;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+
+
+}
+
+h2 {
+
+  text-align: center;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+}
+
+.titular {
+
+  font-size: 2.8rem;
+  padding-top: 50px;
+
+}
+
+
+article {
+
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+
+/* Tipografía */
+
+p {
+
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+
+.textoFooter {
+
+  text-align: right;
+  color: white;
+  font-size: 1.2rem;
+  
+}
+
+
+  
+}
+
+
+
+
