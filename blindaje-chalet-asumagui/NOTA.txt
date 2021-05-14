@@ -1,0 +1,2 @@
+Tras hacer el deploy en Firebase con los comandos requeridos, intenté pulir el aspecto del responsive, pero, a pesar de realizar cambios tanto en los archivos css como en los componentes, no se reflejaban los cambios. 
+Por lo que he leído, basta con escribir de nuevo el comando 'firebase deploy' y en principio no debería dar ningún problema. Sin embargo, como he indicado previamente, los cambios realizados no se reflejan, pero sí aparecen localmente.
